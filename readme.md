@@ -30,11 +30,13 @@ Crie e ative um ambiente virtual para isolar as dependências do projeto
 
 ```python -m venv venv```
 ### No Windows
-```venv\Scripts\activate```
+```.\venv\Scripts\activate```
 ### No Unix ou MacOS
 ```source venv/bin/activate```
 
 ## Instalar Dependências
+
+```pip install --upgrade pip setuptools wheel```
 
 ```pip install -r requirements.txt```
 
